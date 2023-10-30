@@ -36,9 +36,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <body>
   <header>
     <details open>
-      <summary>Immersive VR Session with hands</summary>
+      <summary>Immersive AR Session with hands</summary>
       <p>
-        This sample demonstrates a simple VR session that shows the user's hands.
+        This sample demonstrates a simple AR session that shows the user's hands.
         If your device supports this feature, you will see your hands using a set
         of cubes. Each cube represents a joint in your hand.
         <a class="back" href="./">Back</a>
@@ -85,8 +85,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     let gl = null;
     let renderer = null;
     let scene = new Scene();
-    scene.addNode(new Gltf2Node({ url: './media/gltf/space/space.gltf' }));
-    scene.addNode(new SkyboxNode({ url: './media/textures/milky-way-4k.png' }));
+    // scene.addNode(new Gltf2Node({ url: './media/gltf/space/space.gltf' }));
+    // scene.addNode(new SkyboxNode({ url: './media/textures/milky-way-4k.png' }));
     
     function createBoxPrimitive(r, g, b) {	
       let boxBuilder = new BoxBuilder();	
